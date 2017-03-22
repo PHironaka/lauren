@@ -8,4 +8,4 @@ image: "/uploads/1-pJsUrzz2EGWUoo61z43qAA.jpeg"
 layout: post
 ---
 
-Jekyll is great. It just hit 3.0 and it has come a long way from the 'simple, blog-aware, static site generator' it started out as. [Collections](http://jekyllrb.com/docs/collections/) brings support for custom content types beyond pages and posts. Sass and CoffeScript compiling are now handled by default. 
+Jekyll is great. It just hit 3.0 and it has come a long way from the 'simple, blog-aware, static site generator' it started out as. [Collections](http://jekyllrb.com/docs/collections/) brings support for custom content types beyond pages and posts. Sass and CoffeScript compiling are now handled by default. It's a great time to be building websites with Jekyll.
