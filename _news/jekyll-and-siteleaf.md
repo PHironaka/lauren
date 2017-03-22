@@ -5,6 +5,7 @@ topics:
 - Jekyll
 - Siteleaf
 - Kissyface
+image: "/uploads/1-pJsUrzz2EGWUoo61z43qAA.jpeg"
 layout: post
 ---
 
