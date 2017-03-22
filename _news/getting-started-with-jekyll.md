@@ -1,9 +1,10 @@
 ---
 title: Getting Started with Jekyll
-date: 2015-11-01 08:33:57 -05:00
+date: 2015-11-01 08:33:00 -05:00
 topics:
 - Docs
 - Jekyll
+image: "/uploads/1-pJsUrzz2EGWUoo61z43qAA.jpeg"
 layout: post
 ---
 
