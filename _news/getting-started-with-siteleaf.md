@@ -12,6 +12,8 @@ environment: social media, digital marketing, comms
 layout: post
 ---
 
-If you're just getting started with Siteleaf you're in for a treat. The new [Version Two](http://v2.siteleaf.com) of the service—still in Beta as of late 2015—is chock-full of nice touches. Of course Jekyll integration is the big news here but the folks at [Oak](oak.is) have a consistently clean and pleasing approach to UI that makes the service a pleasure to use. This is especially important if you're a developer getting ready to hand the site off to clients and/or content managers.
+Repositioned Nike Women's entire global digital/social presence - including all digital storytelling (defined persona, tone, content guide) and integrated initiatives in partnership with key stakeholders to best serve the female consumer. Drove record breaking growth and oversaw the overall global omni-channel digital marketing strategy/vision for global geographies and supporting territories.
+
+Built and managed a team of community and digital brand managers that shepherd consumer engagement, content and 1:1 relationships with consumers through digital and social innovation. Oversaw various agency support. 
 
 
