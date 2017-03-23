@@ -6,8 +6,9 @@ topics:
 - Siteleaf
 image: "/uploads/article-01-large.jpg"
 brand-info: Nike Women
-kpi: 'Fostering an online community of 65 million+ women, resetting the category’s
-  global social strategy, and launching the Nike+ Training Club app. '
+kpi: Oversaw and led digital community efforts for the Nike+ Training Club app internally
+  and externally. Provided strategic direction on N+TC services, brand campaigns,
+  and mobile/desktop experiences.
 environment: social media, digital marketing, comms
 layout: post
 ---
