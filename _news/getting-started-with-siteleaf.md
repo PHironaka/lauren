@@ -4,7 +4,7 @@ date: 2015-11-02 08:33:00 -05:00
 topics:
 - Docs
 - Siteleaf
-image: "/uploads/1-pJsUrzz2EGWUoo61z43qAA.jpeg"
+image: "/uploads/article-01-large.jpg"
 layout: post
 ---
 
