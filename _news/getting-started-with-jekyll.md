@@ -6,6 +6,8 @@ topics:
 - Jekyll
 image: "/uploads/3018000000120115.jpg"
 brand-info: Nike Women
+koi: 'fostering an online community of 65 million+ women, resetting the category’s
+  global social strategy, and launching the Nike+ Training Club app. '
 layout: post
 ---
 
