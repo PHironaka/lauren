@@ -1,8 +1,15 @@
 
 // 🎌The Grid 🎌
-.page-content img{
-  width: 100%;
+.page-content {
+  max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+    img{
+    width: 100%;
+  }
 }
+
+
 .big-wrap{
   padding: 2rem;
   @include min-width(3.5);
@@ -26,12 +33,35 @@
 
 // 🎌The homepage content
 
-.home-post p {
-  font-size: 1.1em;
-  line-height: 1.5;
-  color: #646464;
+.home-portfolio {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em;
+  float: left;
 
-}
+    &--copy {
+      @include width(5);
+      float: left;
+      font-size: 1.1em;
+      line-height: 1.5;
+      @include responsive(medium-screens){
+        @include width(4);
+      }
+    }
+
+    &--credits {
+      @include width(4);
+      float: right;
+      font-family: 'Source Sans Pro', sans-serif;
+      @include responsive(medium-screens){
+        @include width(4);
+      }
+
+    }
+ }
+
+
 
 // 🎌The Header🎌
 
@@ -107,4 +137,5 @@ footer{
   margin-top: 1rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  clear: both;
 }

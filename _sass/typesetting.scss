@@ -1,6 +1,6 @@
 // 🎌Use the web-font loader to hide the flash of unstyled text—if Google fonts goes down, serve the next font in the stack🎌
 $headerFont                 :  'Cormorant Garamond', serif;
-
+$serifFont                 :  'Source Sans Pro', sans-serif;
 
 body{
   visibility: hidden;
@@ -8,9 +8,9 @@ body{
 }
 .wf-inactive body{
   visibility: visible;
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: 'Source Sans Pro', sans-serif;
   .page-title{
-    font-family: 'Merriweather', Georgia, serif;
+    font-family: 'Source Sans Pro', sans-serif;
   }
   h1, h2, h3, h4{
     font-family: $headerFont;
@@ -21,11 +21,9 @@ body{
   font-family: $headerFont;
 
   .page-title{
-    font-family: 'Merriweather', Georgia, serif;
-  }
-  h1, h2, h3, h4{
     font-family: $headerFont;
   }
+
 }
 .svg{
   fill: currentColor;
@@ -38,39 +36,37 @@ nav a:hover{
 }
 .page-title{
   display: block;
-  margin: 2rem auto;
+  margin: 0 auto;
   text-align: center;
-  font-family: 'Merriweather', Georgia, serif;
-  font-size: 1.5rem;
+  font-family: $headerFont;
+  font-size: 1.8rem;
   letter-spacing: .05em;
-  text-shadow: 2px 2px 0px $red, 3.5px 3.5px 0px rgba(0, 0, 0, 0.2);
+  padding: 0 0 1em;
   word-wrap: break-word;
   @include responsive(small-screens){
     font-size: 1.8rem;
   }
   @include responsive(medium-screens){
-    font-size: 3rem;
-    text-shadow: 3px 3px 0px $red, 4px 4px 0px rgba(0, 0, 0, 0.2);
+    font-size: 2.6rem;
   }
   @include responsive(wide-screens){
     font-size: 5rem;
     padding: 4rem;
-    text-shadow: 4px 4px 0px $red, 7px 7px 0px rgba(0, 0, 0, 0.2);
   }
   @include responsive(ultra-wide-screens){
     font-size: 6rem;
     padding: 5rem;
   }
   font-weight: 400;
-  background-color: $red;
-  padding: 3rem;
   border-radius: .3rem;
+
   a{
-    color: white;
+    color: black;
+      &:hover {
+        color: black;
+      }
   }
-  a:hover{
-    color: white;
-  }
+
 }
 .highlighter-rouge{
   background-color: #2C3644;
@@ -90,7 +86,9 @@ hr{
 }
 // 🎌Content🎌
 .post-details{
-  font-family:$headerFont;
+  font-family:$serifFont;
+  font-size: 14px;
+  line-height: 1.5;
   span{
     padding: .15rem .3rem;
     background-color: $red;
@@ -103,7 +101,6 @@ hr{
 
 a{
   text-decoration: none;
-  color: $blue;
 }
 a:hover{
   color: darken($blue, 10%);
