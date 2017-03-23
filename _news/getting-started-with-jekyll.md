@@ -6,8 +6,8 @@ topics:
 - Jekyll
 image: "/uploads/3018000000120115.jpg"
 brand-info: Soho House
-kpi: 'Fostering an online community of 65 million+ women, resetting the category’s
-  global social strategy, and launching the Nike+ Training Club app. '
+kpi: Collaborated and co-created with outstanding creative partners in order to build
+  incredible member experiences within Soho House communities.
 layout: post
 ---
 
