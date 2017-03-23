@@ -1,4 +1,6 @@
 // 🎌Use the web-font loader to hide the flash of unstyled text—if Google fonts goes down, serve the next font in the stack🎌
+$headerFont                 :  'Cormorant Garamond', serif;
+
 
 body{
   visibility: hidden;
@@ -11,24 +13,25 @@ body{
     font-family: 'Merriweather', Georgia, serif;
   }
   h1, h2, h3, h4{
-    font-family: 'Archivo Narrow', helvetica, sans-serif;
+    font-family: $headerFont;
   }
 }
 .wf-active body{
   visibility: visible;
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: $headerFont;
+
   .page-title{
     font-family: 'Merriweather', Georgia, serif;
   }
   h1, h2, h3, h4{
-    font-family: 'Archivo Narrow', helvetica, sans-serif;
+    font-family: $headerFont;
   }
 }
 .svg{
   fill: currentColor;
 }
 nav a{
-  font-family: 'Archivo Narrow', helvetica, sans-serif;
+  font-family: $headerFont;
 }
 nav a:hover{
   border-bottom: 2px solid darken($blue, 10%);
@@ -83,11 +86,11 @@ hr{
 }
 // 🎌Navigational Links🎌
 .more a{
-  font-family: 'Archivo Narrow', Georgia, sans-serif;
+  font-family: $headerFont;
 }
 // 🎌Content🎌
 .post-details{
-  font-family: 'Archivo Narrow', Georgia, sans-serif;
+  font-family:$headerFont;
   span{
     padding: .15rem .3rem;
     background-color: $red;

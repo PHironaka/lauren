@@ -8,13 +8,13 @@
   @include min-width(3.5);
   margin: auto;
   @include responsive(tiny-screens){
-    @include width(4);
-  }
-  @include responsive(small-screens){
     @include width(6);
   }
-  @include responsive(medium-screens){
+  @include responsive(small-screens){
     @include width(8);
+  }
+  @include responsive(medium-screens){
+    @include width(10);
   }
   @include responsive(wide-screens){
     @include width(12);
@@ -22,6 +22,15 @@
   @include responsive(ultra-wide-screens){
     @include width(14);
   }
+}
+
+// 🎌The homepage content
+
+.home-post p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: #646464;
+
 }
 
 // 🎌The Header🎌
