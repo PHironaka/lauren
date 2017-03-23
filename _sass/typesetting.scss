@@ -1,0 +1,116 @@
+// 🎌Use the web-font loader to hide the flash of unstyled text—if Google fonts goes down, serve the next font in the stack🎌
+$headerFont                 :  'Cormorant Garamond', serif;
+$serifFont                 :  'Source Sans Pro', sans-serif;
+
+body{
+  visibility: hidden;
+  line-height: 2rem;
+}
+.wf-inactive body{
+  visibility: visible;
+  font-family: 'Source Sans Pro', sans-serif;
+  .page-title{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  h1, h2, h3, h4{
+    font-family: $headerFont;
+  }
+}
+.wf-active body{
+  visibility: visible;
+  font-family: $headerFont;
+
+  .page-title{
+    font-family: $headerFont;
+  }
+
+}
+.svg{
+  fill: currentColor;
+}
+nav a{
+  font-family: $headerFont;
+}
+nav a:hover{
+  border-bottom: 2px solid darken($blue, 10%);
+}
+.page-title{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: $headerFont;
+  font-size: 1.8rem;
+  letter-spacing: .05em;
+  padding: 0 0 1em;
+  word-wrap: break-word;
+  @include responsive(small-screens){
+    font-size: 1.8rem;
+  }
+  @include responsive(medium-screens){
+    font-size: 2.6rem;
+  }
+  @include responsive(wide-screens){
+    font-size: 5rem;
+    padding: 4rem;
+  }
+  @include responsive(ultra-wide-screens){
+    font-size: 6rem;
+    padding: 5rem;
+  }
+  font-weight: 400;
+  border-radius: .3rem;
+
+  a{
+    color: black;
+      &:hover {
+        color: black;
+      }
+  }
+
+}
+.highlighter-rouge{
+  background-color: #2C3644;
+  margin: 2rem;
+  padding: 1rem;
+  code{
+    word-wrap: break-word;
+  }
+}
+hr{
+  border: none;
+  border-bottom: 1px solid $red;
+}
+// 🎌Navigational Links🎌
+.more a{
+  font-family: $headerFont;
+}
+// 🎌Content🎌
+.post-details{
+  font-family:$serifFont;
+  font-size: 14px;
+  line-height: 1.5;
+  span{
+    padding: .15rem .3rem;
+    background-color: $red;
+    color: white;
+    border-radius: .2rem;
+    margin-right: .5rem;
+  }
+}
+// 🎌Content Links🎌
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: darken($blue, 10%);
+}
+a:not(.without-underline){
+  color: $blue;
+  font-weight: bold;
+  @include fancyUnderline();
+}
+a:not(.without-underline):hover{
+  background-size: 2px 2px;
+  color: darken($blue, 10%);
+}
