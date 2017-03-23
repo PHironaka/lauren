@@ -4,7 +4,7 @@ date: 2015-11-01 08:33:00 -05:00
 topics:
 - Docs
 - Jekyll
-image: "/uploads/article-01-large.jpg"
+image: "/uploads/3018000000120115.jpg"
 layout: post
 ---
 
