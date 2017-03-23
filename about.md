@@ -5,10 +5,12 @@ permalink: "/about/"
 layout: page
 ---
 
-[Jekyll](http://jekyllrb.com) is a deceptively simple Ruby-based static site generator. It powers [Github Pages](https://pages.github.com), is one of [the most popular](https://www.staticgen.com) generators around, and now at version 3.0 includes a host of great features like [Sass](http://sass-lang.com) and [Coffee Script](http://coffeescript.org) support, [custom content types](http://jekyllrb.com/docs/collections/), [data files](http://jekyllrb.com/docs/datafiles/), [Liquid templating](https://github.com/Shopify/liquid), and tons more.
+Lauren Gallo is an award-winning marketing executive with expertise in global brand development and integrated communications. Raised in New York, her deep understanding and passion for culture, technology, and entertainment has helped steer her career in growing and defining global, iconic brands.  
 
-[Siteleaf](http://www.siteleaf.com) helps you use Jekyll with clients. **Specifically, it provides a well designed web-based interface to your Jekyll application that content managers can actually use.** Getting non-technical subject matter experts on board with any kind of Jekyll workflow has always been the biggest challenge of using Jekyll with clients. They don't want to hear about build scripts, or Github repos, or file name conventions. Siteleaf lets your content managers shortcut that steep Jekyll learning curve by giving them the beautifully simple web-based interface they deserve. Want to add an image? Just drag and drop. Adding structured metadata? It's point and click.
+As Nike’s Digital Marketing Lead, she repositioned the brand’s digital footprint and voice, building a team of community managers and creative producers responsible for record breaking, omni-channel growth. Other highlights include fostering an online community of 65 million+ women, resetting the category’s global social strategy, and launching the Nike+ Training Club app. 
 
-Speaking of point and click, [this site](https://github.com/BryanSchuetz/siteleaf-jekyll) is a freebie starter theme to help you quickly get started with Siteleaf and Jekyll. Use it as a starting point for your own customizations, or just change the title and use it as is, or ignore it altogether.
+Prior to Nike, she drove Soho House’s global marketing, membership, and communications strategy. There, she established key partnerships with brands, media, and tastemakers, and launched new properties in Los Angeles, Toronto, Berlin, and Miami. 
 
-It's a simple fixed-width, adaptive blog template. It's fixed-width because I hate fluid layouts. It's adaptive because **_mobile_**. The grid is controlled by a couple of small [Sass](http://sass-lang.com) mixins. Basically, you set the width of your columns and gutters, center the grid on the viewport, and let the column count be determined by whatever breakpoints make sense given the content. That's it, mostly...
+Currently, Lauren leads Digital Marketing & Communications at Apple. 
+
+She was recently named to Forbes 30 under 30 list.
