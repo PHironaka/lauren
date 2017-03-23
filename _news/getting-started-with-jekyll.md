@@ -5,6 +5,7 @@ topics:
 - Docs
 - Jekyll
 image: "/uploads/3018000000120115.jpg"
+brand-info: Nike Women
 layout: post
 ---
 
