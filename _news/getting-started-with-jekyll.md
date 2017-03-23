@@ -11,4 +11,6 @@ kpi: 'Fostering an online community of 65 million+ women, resetting the category
 layout: post
 ---
 
-Jekyll is great. It just hit 3.0 and it has come a long way from the 'simple, blog-aware, static site generator' it started out as. [Collections](http://jekyllrb.com/docs/collections/) brings support for custom content types beyond pages and posts. Sass and CoffeScript compiling are now handled by default. It's a great time to be building websites with Jekyll.
+Developed and drove the overall global brand marketing strategies expanding Soho House in Los Angeles, Berlin, Miami, and Toronto with a hyper local approach and diligent curation specific to the brand. 
+
+Studied trends and sought out creative opportunities to align with business objectives to create new marketing opportunities and solutions that created compelling experiences within the Houses for the consumer. Drove the global marketing strategy around building a dynamic presence for the brand within creative communities.
