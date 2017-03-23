@@ -5,6 +5,9 @@ topics:
 - Docs
 - Siteleaf
 image: "/uploads/article-01-large.jpg"
+brand-info: Nike Women
+kpi: 'Fostering an online community of 65 million+ women, resetting the category’s
+  global social strategy, and launching the Nike+ Training Club app. '
 layout: post
 ---
 
