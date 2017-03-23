@@ -13,4 +13,3 @@ layout: post
 
 Developed and drove the overall global brand marketing strategies expanding Soho House in Los Angeles, Berlin, Miami, and Toronto with a hyper local approach and diligent curation specific to the brand. 
 
-Studied trends and sought out creative opportunities to align with business objectives to create new marketing opportunities and solutions that created compelling experiences within the Houses for the consumer. Drove the global marketing strategy around building a dynamic presence for the brand within creative communities.
