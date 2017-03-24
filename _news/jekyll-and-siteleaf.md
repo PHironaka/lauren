@@ -5,7 +5,7 @@ topics:
 - Jekyll
 - Siteleaf
 - Kissyface
-image: "/uploads/article-01-large.jpg"
+image: http://www.siliconbeat.com/wp-content/uploads/2015/10/ssjm1027apple005.jpg
 layout: post
 ---
 
