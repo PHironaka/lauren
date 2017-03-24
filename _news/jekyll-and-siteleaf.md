@@ -7,7 +7,6 @@ topics:
 - Siteleaf
 - Kissyface
 image: "/uploads/article-01-large.jpg"
-confidential: 
 layout: post
 ---
 
