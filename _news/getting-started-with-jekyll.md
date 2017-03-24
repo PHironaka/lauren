@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Jekyll
+title: Soho House
 date: 2015-11-01 08:33:00 -05:00
 topics:
 - Docs
