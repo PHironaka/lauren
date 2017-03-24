@@ -25,11 +25,9 @@ excerpt_separator: "<!--more-->"
 email: your-email@domain.com
 exclude:
 - ".gitignore"
-description: 'Write an awesome description for your new site here.
-
-'
+description: Creative | Brand Strategy | Marketing | Curator
 baseurl: 
 destination: "./build"
 sass:
   style: compressed
-bio: Creative | Brand Strategy | Marketing | Curator
+bio: 
