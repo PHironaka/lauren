@@ -6,6 +6,7 @@ topics:
 - Siteleaf
 - Kissyface
 image: http://www.siliconbeat.com/wp-content/uploads/2015/10/ssjm1027apple005.jpg
+brand-info: Apple
 layout: post
 ---
 
