@@ -11,3 +11,4 @@ confidential: confidential
 layout: post
 ---
 
+Currently serving as Senior Brand Marketing Lead at Apple. All my work and contributions for the company are confidential.
