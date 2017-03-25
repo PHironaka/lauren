@@ -1,16 +1,26 @@
 // 🎌Use the web-font loader to hide the flash of unstyled text—if Google fonts goes down, serve the next font in the stack🎌
-$headerFont                 :  'Cormorant Garamond', serif;
+$headerFont                 :  'Cormorant Infant', serif;
 $serifFont                 :  'Source Sans Pro', sans-serif;
 
 body{
   visibility: hidden;
-  line-height: 2rem;
+  font-family: $headerFont ;
 }
+
+.site-description {
+    margin: 2em 0 3em;
+
+    h2 {
+      font-size: 2em;
+      font-weight: 300;
+    }
+}
+
 .wf-inactive body{
   visibility: visible;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $serifFont;
   .page-title{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: $headerFont;
   }
   h1, h2, h3, h4{
     font-family: $headerFont;
@@ -18,13 +28,17 @@ body{
 }
 .wf-active body{
   visibility: visible;
-  font-family: $headerFont;
+  font-family: $serifFont;
+
 
   .page-title{
     font-family: $headerFont;
   }
 
 }
+
+
+
 .svg{
   fill: currentColor;
 }
@@ -36,26 +50,24 @@ nav a:hover{
 }
 .page-title{
   display: block;
-  margin: 0 auto;
-  text-align: center;
+  float: left;
+  margin: 1em auto 0;
   font-family: $headerFont;
   font-size: 1.8rem;
   letter-spacing: .05em;
   padding: 0 0 1em;
   word-wrap: break-word;
   @include responsive(small-screens){
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
   @include responsive(medium-screens){
-    font-size: 2.6rem;
+    font-size: 1.6rem;
   }
   @include responsive(wide-screens){
-    font-size: 5rem;
-    padding: 4rem;
+    font-size: 2rem;
   }
   @include responsive(ultra-wide-screens){
-    font-size: 6rem;
-    padding: 5rem;
+    font-size: 2.5rem;
   }
   font-weight: 400;
   border-radius: .3rem;

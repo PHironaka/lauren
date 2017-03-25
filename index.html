@@ -5,28 +5,31 @@ topics:
 - Siteleaf
 - Jekyll
 ---
-
 <div class="home">
+  <div class="site-description">
+    <h2> {{ site.description }} </h2>
+  </div>
   {% assign news = site.news | sort: 'date' | reverse %}
   {% for post in news limit:3 %}
   <article class="home-portfolio">
     <img src="{{post.image}}" alt="">
     <div class="home-portfolio--copy">
-
-      {{ post.content }}
+    {{ post.content }}
     </div>
-
     <div class="home-portfolio--credits">
       <p class="post-details">
         Brand: {{ post.brand-info }}
       </p>
+      {% if post.kpi %}
       <p class="post-details">
         KPI: {{ post.kpi }}
       </p>
+      {% endif %}
+{% if post.environment %}
       <p class="post-details">
         Environment: {{ post.environment }}
       </p>
-
+ {% endif %}
     </div>
 
 </article>
