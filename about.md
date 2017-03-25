@@ -2,6 +2,7 @@
 title: About
 date: 2015-11-06 18:37:00 -05:00
 permalink: "/about/"
+image: "/uploads/_Gallo_Shoot-43.jpg"
 layout: page
 ---
 
