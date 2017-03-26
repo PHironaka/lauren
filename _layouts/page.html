@@ -12,7 +12,17 @@ layout: default
 
   <aside class="about-info">
     <h2>Contact</h2>
-  
+    <ul>
+    {% for follow-link in page.follow-link %}
+    <p>
+    {{follow-link.intro-text}}
+    </p>
+    <li>
+    <a href="{{ follow-link.url }}" target="_blank"> {{follow-link.text}}</a>
+    </li>
+    {% endfor %}
+    </ul>
+
 
     <h2> Awards </h2>
     <p> {{page.awards }} </p>
