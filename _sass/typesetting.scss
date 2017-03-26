@@ -30,6 +30,10 @@ body{
   visibility: visible;
   font-family: $serifFont;
 
+  h1 {
+    font-family: $headerFont;
+  }
+
 
   .page-title{
     font-family: $headerFont;

@@ -37,8 +37,8 @@ h1 {
   position: relative;
   display: block;
   margin: 0 auto;
-  width: 45%;
-   top: 60%;
+  width: 90%;
+   top: 50%;
 }
 
 
@@ -96,6 +96,32 @@ h1 {
       }
 
     }
+ }
+
+ .about-content {
+   float: left;
+  padding-right: 2em;
+
+
+  @include responsive(small-screens){
+    @include width(5);
+  }
+  @include responsive(medium-screens){
+    @include width(7);
+  }
+  @include responsive(wide-screens){
+    @include width(9);
+  }
+  @include responsive(ultra-wide-screens){
+    @include width(10);
+  }
+
+
+ }
+
+ .about-info {
+     @include width(3);
+     float: left;
  }
 
 

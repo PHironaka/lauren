@@ -6,7 +6,15 @@ layout: default
   {% if page.title == 'About' %}
   <img src="{{page.image}}" alt="lauren-gallo">
   {% endif %}
-  <article class="post-content">
+  <article class="about-content">
     {{ content }}
   </article>
+
+  <aside class="about-info">
+    <h2>Contact</h2>
+  
+
+    <h2> Awards </h2>
+    <p> {{page.awards }} </p>
+  </aside>
 </div>
