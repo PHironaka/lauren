@@ -1,7 +1,6 @@
 ---
 title: Setup
 permalink: "/setup/"
-published: false
 layout: page
 ---
 
