@@ -121,11 +121,7 @@ a{
 a:hover{
   color: darken($blue, 10%);
 }
-a:not(.without-underline){
-  color: $blue;
-  font-weight: bold;
-  @include fancyUnderline();
-}
+
 a:not(.without-underline):hover{
   background-size: 2px 2px;
   color: darken($blue, 10%);

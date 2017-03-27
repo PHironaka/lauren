@@ -12,11 +12,12 @@ layout: default
 
   <aside class="about-info">
     <h2>Contact</h2>
+    <p>
+    {{page.contact-info}}
+    </p>
     <ul>
     {% for follow-link in page.follow-link %}
-    <p>
-    {{follow-link.intro-text}}
-    </p>
+
     <li>
     <a href="{{ follow-link.url }}" target="_blank"> {{follow-link.text}}</a>
     </li>
@@ -24,7 +25,12 @@ layout: default
     </ul>
 
 
-    <h2> Awards </h2>
-    <p> {{page.awards }} </p>
+    <h2> Press </h2>
+   {% for post in site.posts %}
+   <ul>
+     <li><a href="{{post.link}}"> {{post.title}} </a></li>
+   </ul>
+
+   {% endfor %}
   </aside>
 </div>

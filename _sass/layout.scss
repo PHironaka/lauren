@@ -9,6 +9,9 @@ margin-right: auto;
   }
 }
 
+p, a {
+  font-size: .9em;
+}
 
 
 #overlay-preload {
@@ -52,7 +55,7 @@ h1 {
   @include min-width(3.5);
   margin: auto;
   @include responsive(tiny-screens){
-    @include width(6);
+    @include width(5);
   }
   @include responsive(small-screens){
     @include width(8);
@@ -74,8 +77,14 @@ h1 {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
   float: left;
+  border-bottom: 1px solid #eee;
+padding: 1em 0;
+    &:last-child {
+      border-bottom: none;
+    }
+
 
     &--copy {
       @include width(5);
@@ -91,6 +100,13 @@ h1 {
       @include width(4);
       float: right;
       font-family: 'Source Sans Pro', sans-serif;
+      @include responsive(tiny-screens){
+        @include width(5);
+      }
+      @include responsive(small-screens){
+        @include width(8);
+      }
+
       @include responsive(medium-screens){
         @include width(4);
       }
@@ -122,6 +138,24 @@ h1 {
  .about-info {
      @include width(3);
      float: left;
+     border-left: 1px solid #eee;
+     padding: 0 1em;
+     margin-top: 2em;
+
+      h2 {
+        margin: 0;
+      }
+
+     ul {
+       list-style: none;
+       //list-style-type: square;
+       padding: 0;
+
+       li {
+         text-decoration: none;
+
+       }
+     }
  }
 
 
@@ -203,7 +237,6 @@ float: right;
 
 footer{
   margin-top: 1rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
   clear: both;
 }
