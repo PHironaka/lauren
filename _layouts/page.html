@@ -6,7 +6,31 @@ layout: default
   {% if page.title == 'About' %}
   <img src="{{page.image}}" alt="lauren-gallo">
   {% endif %}
-  <article class="post-content">
+  <article class="about-content">
     {{ content }}
   </article>
+
+  <aside class="about-info">
+    <h2>Contact</h2>
+    <p>
+    {{page.contact-info}}
+    </p>
+    <ul>
+    {% for follow-link in page.follow-link %}
+
+    <li>
+    <a href="{{ follow-link.url }}" target="_blank"> {{follow-link.text}}</a>
+    </li>
+    {% endfor %}
+    </ul>
+
+
+    <h2> Press </h2>
+   {% for post in site.posts %}
+   <ul>
+     <li><a href="{{post.link}}"> {{post.title}} </a></li>
+   </ul>
+
+   {% endfor %}
+  </aside>
 </div>
