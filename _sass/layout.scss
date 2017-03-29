@@ -89,6 +89,7 @@ padding: 1em 0;
     &--copy {
       @include width(5);
       float: left;
+      font-size: 1.3em;
       line-height: 1.3;
       font-family: 'Cormorant Infant', serif;
       @include responsive(medium-screens){

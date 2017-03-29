@@ -35,13 +35,18 @@ body{
     font-family: $headerFont;
   }
 
-  
+
 
   .page-title{
     font-family: $headerFont;
   }
 
-}
+
+
+  }
+
+
+
 
 
 
@@ -54,6 +59,20 @@ nav a{
 nav a:hover{
   border-bottom: 2px solid darken($blue, 10%);
 }
+
+
+  .page-title-sub {
+    display: block;
+  float: left;
+  font-size: 1em;
+  color: #9a9696;
+  letter-spacing: .05em;
+  padding: 0 0 1em;
+  word-wrap: break-word;
+  font-weight: 400;
+  border-radius: .3rem;
+  }
+
 .page-title{
   display: block;
   float: left;
@@ -61,7 +80,7 @@ nav a:hover{
   font-family: $headerFont;
   font-size: 1.8rem;
   letter-spacing: .05em;
-  padding: 0 0 1em;
+  padding: 0;
   word-wrap: break-word;
   @include responsive(small-screens){
     font-size: 1.4rem;
