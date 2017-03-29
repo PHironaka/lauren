@@ -20,15 +20,23 @@
           {{ content }}
         </div>
       </div>
-
       {% include footer.html %}
     </div>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <script type="text/javascript">
     // Overlay fade out on load
     $(window).load(function() {
-	    $('#overlay-preload').delay(2000).fadeOut('slow');
+	    $('#overlay-preload').delay(2500).fadeOut('slow');
     });
+    $(document).ready(function() {
+      $('#overlay-preload h1').hide(0).delay(300).fadeIn(1000);
+      $('#overlay-preload p').hide(0).delay(900).fadeIn(1000);
+});
+  //   var welcome = $('#overlay-preload')
+  //    welcome.load(function() {
+  //  $(this).activeClass('active').fadeOut(fast, 400);
+  //    });)
+
     </script>
   </body>
 </html>
