@@ -6,14 +6,16 @@ image: "/uploads/58d60972c370d8366849e6b7.jpg"
 awards: She was recently named to Forbes 30 under 30 list.
 follow-link:
 - intro-text: 'Follow along on social media for further bit sized pieces of content. '
-  url: https://facebook.com/laurengallo
-  text: 'Facebook
+  url: https://linkedin/i/laurengallo
+  text: 'LinkedIn
 
 '
 - url: https://twitter.com/missgallo
   text: Twitter
 - url: https://instagram.com/missgallo
   text: Instagram
+- url: mailto:gallo@apple.com
+  text: Email
 contact-info: Follow along on social media for further bit sized pieces of content.
 layout: page
 ---
