@@ -8,7 +8,7 @@ topics:
 
 <div class="home">
   <div class="site-description">
-   
+
   </div>
   {% assign news = site.news | sort: 'date' | reverse %}
   {% for post in news limit:3 %}
@@ -18,12 +18,14 @@ topics:
     {{ post.content }}
     </div>
     <div class="home-portfolio--credits">
+      <h3> Brand: </h3>
       <p class="post-details">
-        Brand: {{ post.brand-info }}
+       {{ post.brand-info }}
       </p>
       {% if post.kpi %}
+      <h3>KPI: </h3>
       <p class="post-details">
-        KPI: {{ post.kpi }}
+        {{ post.kpi }}
       </p>
       {% endif %}
 {% if post.environment %}
