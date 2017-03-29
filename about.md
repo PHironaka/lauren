@@ -14,7 +14,7 @@ follow-link:
   text: Twitter
 - url: https://instagram.com/missgallo
   text: Instagram
-- url: mailto:gallo@apple.com
+- url: mailto:laurenmgallo@gmail.com
   text: Email
 contact-info: Follow along on social media for further bit sized pieces of content.
 layout: page
