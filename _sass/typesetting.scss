@@ -5,6 +5,7 @@ $serifFont                 :  'Source Sans Pro', sans-serif;
 body{
   visibility: hidden;
   font-family: $headerFont ;
+  font-weight: 300;
 }
 
 .site-description {
@@ -33,6 +34,7 @@ body{
 
   h1 {
     font-family: $headerFont;
+    font-weight: 300;
   }
 
 
