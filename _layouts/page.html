@@ -12,12 +12,12 @@ layout: default
 
   <aside class="about-info">
     <h2>Contact</h2>
-    
+
     <ul>
     {% for follow-link in page.follow-link %}
 
     <li>
-    <a href="{{ follow-link.url }}" target="_blank"> {{follow-link.text}}</a>
+    <a href="{{ follow-link.url }}" > {{follow-link.text}}</a>
     </li>
     {% endfor %}
     </ul>
