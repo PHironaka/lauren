@@ -60,7 +60,7 @@ h1 {
     @include width(5);
   }
   @include responsive(small-screens){
-    @include width(8);
+    @include width(7);
   }
   @include responsive(medium-screens){
     @include width(10);
@@ -89,35 +89,59 @@ padding: 1em 0;
 
 
     &--copy {
-      @include width(5);
       float: left;
-      font-size: 1.3em;
+
       line-height: 1.3;
       font-family: 'Cormorant Infant', serif;
       color: #585858;
-      @include responsive(medium-screens){
-        @include width(4);
+
+
+      @include responsive(small-screens){
+       width: 100%;
+       font-size: 1.1em;
+
       }
 
-      h3 {
-            font-size: 1.1em;
+      @include responsive(medium-screens){
+         @include width(4);
+          font-size: 1.3em;
       }
+
+      @include responsive(wide-screens){
+          @include width(5);
+           font-size: 1.3em;
+      }
+
+
+
+
     }
 
     &--credits {
       @include width(4);
-      float: right;
+
       font-family: 'Source Sans Pro', sans-serif;
       @include responsive(tiny-screens){
-        @include width(5);
+              width: 100%;
       }
       @include responsive(small-screens){
-        @include width(8);
+        @include width(4);
       }
 
       @include responsive(medium-screens){
         @include width(4);
       }
+
+      @include responsive(medium-screens){
+        float: right;
+      }
+
+      h3 {
+            font-size: 1.1em;
+            font-weight: 300;
+            margin: 1em 0 0;
+      }
+
 
     }
  }
@@ -128,7 +152,7 @@ padding: 1em 0;
 
 
   @include responsive(small-screens){
-    @include width(5);
+    width: 100%:
   }
   @include responsive(medium-screens){
     @include width(7);
@@ -154,6 +178,15 @@ padding: 1em 0;
      border-left: 1px solid #eee;
      padding: 0 1em;
      margin-top: 2em;
+
+     @include responsive(small-screens){
+       width: 100%;
+     }
+
+     @include responsive(medium-screens){
+       width: 100%;
+       border:none;
+     }
 
       h2 {
         margin: 0;

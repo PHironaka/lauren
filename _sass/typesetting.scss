@@ -25,12 +25,14 @@ body{
   }
   h1, h2, h3, h4{
     font-family: $headerFont;
+        font-weight: normal;
   }
 
 }
 .wf-active body{
   visibility: visible;
   font-family: $serifFont;
+      font-weight: normal;
 
   h1 {
     font-family: $headerFont;
@@ -131,7 +133,6 @@ hr{
 // 🎌Content🎌
 .post-details{
   font-family:$serifFont;
-  font-size: 14px;
   line-height: 1.5;
   span{
     padding: .15rem .3rem;
