@@ -25,7 +25,7 @@ excerpt_separator: "<!--more-->"
 email: your-email@domain.com
 exclude:
 - ".gitignore"
-description: " Brand Strategy | Marketing | Content | Curator"
+description: 
 baseurl: 
 destination: "./build"
 sass:
