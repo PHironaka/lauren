@@ -154,7 +154,7 @@ padding: 1em 0;
     width: 100%;
   }
   @include responsive(medium-screens){
-    @include width(7);
+    @include width(10);
   }
   @include responsive(wide-screens){
     @include width(9);
@@ -164,7 +164,7 @@ padding: 1em 0;
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin: 1em 0;
   }
 
@@ -180,6 +180,8 @@ padding: 1em 0;
 
      @include responsive(small-screens){
        width: 100%;
+       padding: 0
+       border:none;
      }
 
      @include responsive(medium-screens){
