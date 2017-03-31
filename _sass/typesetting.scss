@@ -37,6 +37,7 @@ body{
   h1 {
     font-family: $headerFont;
     font-weight: 300;
+    font-size: 1.3em;
   }
 
 
@@ -73,13 +74,13 @@ nav a:hover{
   .page-title-sub {
 
   display: block;
-  float: left;
-  font-size: 1em;
+  font-size: .8em;
   color: #9a9696;
   letter-spacing: .05em;
   padding: 0 0 1em;
   word-wrap: break-word;
   font-weight: 400;
+  text-transform: uppercase;
   border-radius: .3rem;
   margin: 0;
   }
@@ -136,6 +137,7 @@ hr{
 .post-details{
   font-family:$serifFont;
   line-height: 1.5;
+  margin-top: .5em;
   span{
     padding: .15rem .3rem;
     background-color: $red;
