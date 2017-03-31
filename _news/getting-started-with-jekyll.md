@@ -6,8 +6,7 @@ topics:
 - Jekyll
 image: "/uploads/3018000000120115.jpg"
 brand-info: Soho House
-kpi: Collaborated and co-created with outstanding creative partners in order to build
-  incredible member experiences within Soho House communities.
+kpi: Strategy, Account, Marketing
 layout: post
 ---
 
