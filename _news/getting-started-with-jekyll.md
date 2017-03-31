@@ -6,7 +6,7 @@ topics:
 - Jekyll
 image: "/uploads/3018000000120115.jpg"
 brand-info: Soho House
-kpi: Strategy, Account, Marketin
+kpi: Strategy, Account, Marketing
 layout: post
 ---
 
