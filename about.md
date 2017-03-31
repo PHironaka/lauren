@@ -2,7 +2,7 @@
 title: About
 date: 2015-11-06 18:37:00 -05:00
 permalink: "/about/"
-image: "/uploads/58d60972c370d8366849e6b7.jpg"
+image: "/uploads/Chung_20170325_1500.jpg"
 awards: She was recently named to Forbes 30 under 30 list.
 follow-link:
 - intro-text: 'Follow along on social media for further bit sized pieces of content. '
