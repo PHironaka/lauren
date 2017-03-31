@@ -1,6 +1,5 @@
 ---
 ---
-
 <!DOCTYPE html>
 <html>
   {% include head.html %}
@@ -8,7 +7,7 @@
     <!-- {% if page.title == 'Home' %} -->
     <div id="overlay-preload">
       <h1>Lauren Gallo</h1>
-      <p> Creative | Brand Strategy | Marketing | Curator </p>
+      <p> Brand Strategy | Marketing | Content | Curator </p>
     </div>
         <!-- {% endif %}  -->
     {% include svg_sprite.html %}
@@ -26,8 +25,7 @@
     <script type="text/javascript">
     // Overlay fade out on load
     $(window).load(function() {
-	    $('#overlay-preload').delay(2500).fadeOut('slow');
-    });
+	    $('#overlay-preload').delay(2500).fadeOut('slow'); });
     $(document).ready(function() {
       $('#overlay-preload h1').hide(0).delay(300).fadeIn(1000);
       $('#overlay-preload p').hide(0).delay(900).fadeIn(1000);

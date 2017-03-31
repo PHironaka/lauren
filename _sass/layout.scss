@@ -155,7 +155,6 @@ padding: 1em 0;
     width: 100%;
   }
   @include responsive(medium-screens){
-    width: 100%;
     padding-right: 0;
   }
   @include responsive(wide-screens){
@@ -174,21 +173,19 @@ padding: 1em 0;
  }
 
  .about-info {
-     @include width(3);
-     float: left;
+
      border-left: 1px solid #eee;
      padding: 0 1em;
      margin-top: 2em;
 
      @include responsive(small-screens){
-       width: 100%;
        padding: 0;
        border-left: none;
      }
 
      @include responsive(medium-screens){
-       width: 100%;
-      border-left: none;
+      @include width(3);
+      float: left;
      }
 
       h2 {
@@ -218,7 +215,7 @@ padding: 1em 0;
   list-style-type: none;
   padding-left: 0;
   float: right;
-  margin-top:1em;
+  margin-top:1.3em;
 
   li{
     display: block;
