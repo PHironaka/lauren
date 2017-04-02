@@ -23,7 +23,7 @@ layout: default
       <ul class="news">
          {% for post in site.posts %}
         <li><a href="{{post.link}}"> {{post.title}} </a></li>
-        <h4>{{ page.date | date_to_long_string }}</h4>
+        <h4>{{ post.date | date: '%B %d, %Y'  }}</h4>
         {% endfor %}
        </ul>
     </div>
