@@ -4,7 +4,7 @@ date: 2015-11-01 08:33:00 -05:00
 topics:
 - Docs
 - Jekyll
-image: "/uploads/Soho_House_Berlin_16_1460.jpg"
+image: "/uploads/CopyrightSohoHouse_WestHollywood_12.jpg"
 brand-info: Soho House
 kpi: Strategy, Account, Marketing
 layout: post
