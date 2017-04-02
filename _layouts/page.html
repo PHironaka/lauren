@@ -7,6 +7,7 @@ layout: default
   <article class="about-content">
     {% if page.title == 'About' %}
     <img src="{{page.image}}" alt="lauren-gallo">
+    <h4>photo by Justin Chung</h4>
     {% endif %}
 
 
@@ -14,15 +15,19 @@ layout: default
 
   <aside class="about-info">
     {{ content }}
+  </aside>
 
+  <div class="about-contact">
     <h2> Press </h2>
-   {% for post in site.posts %}
-   <ul class="news">
-     <li><a href="{{post.link}}"> {{post.title}} </a></li>
-   </ul>
-
-   {% endfor %}
-
+    <div>
+      <ul class="news">
+         {% for post in site.posts %}
+        <li><a href="{{post.link}}"> {{post.title}} </a></li>
+        <h4>{{ page.date | date_to_long_string }}</h4>
+        {% endfor %}
+       </ul>
+    </div>
+    <div>
     <h2>Contact</h2>
 
     <ul>
@@ -33,8 +38,6 @@ layout: default
     </li>
     {% endfor %}
     </ul>
-
-
-
-  </aside>
+    </div>
+  </div>
 </div>
