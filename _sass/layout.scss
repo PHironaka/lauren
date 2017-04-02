@@ -24,7 +24,7 @@ p, a {
 
 
 #overlay-preload {
-  font-family: 'Cormorant Infant', serif;
+
   background: #fff;
 height: 100%;
 width: 100%;
@@ -38,12 +38,15 @@ overflow: visible;
 
 
 h1 {
+  font-family: 'Cormorant Infant', serif;
   position: relative;
   display: block;
   top: 40%;
   margin: 0 auto;
   margin-top: -70px;
   width:40%;
+  text-transform: uppercase;
+
 
 }
 
@@ -52,7 +55,11 @@ h1 {
   display: block;
   margin: 0 auto;
   width: 90%;
-   top: 50%;
+  top: 45%;
+  text-transform: uppercase;
+  color: #9a9696;
+  font-size: .7em;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -129,7 +136,7 @@ padding: 1em 0;
     &--credits {
       @include width(4);
 
-      font-family: 'Source Sans Pro', sans-serif;
+
       @include responsive(tiny-screens){
               width: 100%;
       }
@@ -182,6 +189,11 @@ text-transform: uppercase;
     margin: 1em 0;
   }
 
+  h4 {
+    margin: 0;
+    font-size: .6em;
+  }
+
 
  }
 
@@ -220,7 +232,42 @@ text-transform: uppercase;
      }
  }
 
+.about-contact {
+  float: left;
+margin: 2em auto;
+width: 100%;
+display: block;
+text-align: center;
+border-top: 1px solid #e1e1e1;
 
+    div {
+      margin-top: 2em;
+    }
+
+    h2 {
+      font-family: "Cormorant Infant",serif;
+font-weight: 300;
+font-size: 1.8em;
+    }
+
+    h4 {
+      line-height: 1;
+      margin: 0 0 1em 0 ;
+      font-weight: 300;
+    }
+    ul {
+      padding: 0;
+    }
+
+    li {
+     line-height: 2;
+    margin: 0;
+    padding: 0;
+    font-family: "Cormorant Infant",serif;
+    font-size: 1.3em;
+    }
+
+}
 
 // 🎌The Header🎌
 
