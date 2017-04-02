@@ -5,7 +5,7 @@ topics:
 - Jekyll
 - Siteleaf
 - Kissyface
-image: "/uploads/desktop-pc-5120x2880-wallpaper_00233.jpg"
+image: "/uploads/desktop-pc-5120x2880-wallpaper_00097.jpg"
 brand-info: Apple
 layout: post
 ---
