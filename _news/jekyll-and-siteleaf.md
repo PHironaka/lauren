@@ -5,7 +5,7 @@ topics:
 - Jekyll
 - Siteleaf
 - Kissyface
-image: "/uploads/apple-seeklogo.com-%5BConverted%5D.jpg"
+image: "/uploads/LG_BIO.jpg"
 brand-info: Apple
 kpi: Confidential
 layout: post
