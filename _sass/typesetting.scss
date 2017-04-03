@@ -1,10 +1,9 @@
 // 🎌Use the web-font loader to hide the flash of unstyled text—if Google fonts goes down, serve the next font in the stack🎌
-$headerFont                 :  'Cormorant Infant', serif;
-$serifFont                 :  'Source Sans Pro', sans-serif;
+$serifFont                 :  'helvetica', serif;
 
 body{
   visibility: hidden;
-  font-family: $headerFont ;
+  font-family: $serifFont ;
   font-weight: 300;
 }
 
@@ -21,10 +20,10 @@ body{
   visibility: visible;
   font-family: $serifFont;
   .page-title{
-    font-family: $headerFont;
+    font-family: $serifFont;
   }
   h1, h2, h3, h4{
-    font-family: $headerFont;
+    font-family: $serifFont;
         font-weight: normal;
   }
 
@@ -35,7 +34,7 @@ body{
       font-weight: normal;
 
   h1 {
-    font-family: $headerFont;
+    font-family: $serifFont;
     font-weight: 300;
     font-size: 1.3em;
   }
@@ -43,7 +42,7 @@ body{
 
 
   .page-title{
-    font-family: $headerFont;
+    font-family: $serifFont;
   }
 
 
@@ -59,7 +58,7 @@ body{
   fill: currentColor;
 }
 nav a{
-  font-family: $headerFont;
+  font-family: $serifFont;
   -webkit-transition: all 300ms ease-out;
 -moz-transition: all 300ms ease-out;
 -ms-transition: all 300ms ease-out;
@@ -89,7 +88,7 @@ nav a:hover{
   display: block;
   text-transform: uppercase;
   float: left;
-  font-family: $headerFont;
+  font-family: $serifFont;
   font-size: 1.8rem;
   letter-spacing: .05em;
   padding: 0;
@@ -131,13 +130,14 @@ hr{
 }
 // 🎌Navigational Links🎌
 .more a{
-  font-family: $headerFont;
+  font-family: $serifFont;
 }
 // 🎌Content🎌
 .post-details{
   font-family:$serifFont;
   line-height: 1.5;
   margin-top: .5em;
+  font-size: .9em;
   span{
     padding: .15rem .3rem;
     background-color: $red;
