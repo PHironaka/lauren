@@ -3,12 +3,12 @@ layout: default
 ---
 
 <div class="post">
-
+{% if page.title == 'About' %}
   <article class="about-content">
-    {% if page.title == 'About' %}
+
     <img src="{{page.image}}" alt="lauren-gallo">
     <h4>photo by Justin Chung</h4>
-    {% endif %}
+
 
 
   </article>
@@ -16,18 +16,19 @@ layout: default
   <aside class="about-info">
     {{ content }}
   </aside>
+  {% endif %}
 
-  <div class="about-contact">
+ {% if page.title == 'Press' %}
     <h2> Press </h2>
     <div>
       <ul class="news">
          {% for post in site.posts %}
-        <li><a href="{{post.link}}"> {{post.title}} </a></li>
-        <h4>{{ page.date | date_to_long_string }}</h4>
+        <li><a href="{{post.link}}"> <img src="{{post.image}}" alt="{{post.title}}"> </a></li>
         {% endfor %}
        </ul>
     </div>
-    <div>
+      {% endif %}
+    <!-- <div>
     <h2>Contact</h2>
 
     <ul>
@@ -38,6 +39,5 @@ layout: default
     </li>
     {% endfor %}
     </ul>
-    </div>
-  </div>
+    </div> -->
 </div>
