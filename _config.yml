@@ -30,3 +30,4 @@ baseurl:
 destination: "./build"
 sass:
   style: compressed
+permalink: pretty

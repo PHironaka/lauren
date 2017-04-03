@@ -1,5 +1,5 @@
 // 🎌Use the web-font loader to hide the flash of unstyled text—if Google fonts goes down, serve the next font in the stack🎌
-$serifFont                 :  'helvetica', serif;
+$serifFont                 :  'helvetica', sans-serif;
 
 body{
   visibility: hidden;
@@ -84,13 +84,17 @@ nav a:hover{
 
 .page-title{
   display: block;
-  text-transform: uppercase;
-  float: left;
-  font-family: $serifFont;
-  font-size: 1.8rem;
-  letter-spacing: .05em;
-  padding: 0;
-  word-wrap: break-word;
+    /* text-transform: uppercase; */
+    float: left;
+    font-family: "helvetica",sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: .05em;
+    padding: 0;
+    word-wrap: break-word;
+    font-weight: 400;
+    border-radius: .3rem;
+    width: 6em;
+    padding: .7em 0 0;
   @include responsive(small-screens){
     font-size: 1.4rem;
   }
