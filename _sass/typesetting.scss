@@ -85,16 +85,17 @@ float: left;
 width: 6.5em;
 
   @include responsive(small-screens){
-    margin: 1em 0 0;
+    padding: 1em 0 0;
+
   }
   @include responsive(medium-screens){
-    margin: 1em 0 0;
+    padding: 1em 0 0;
   }
   @include responsive(wide-screens){
-    margin: .6em 0 0;
+    padding: .6em 0 0;
   }
   @include responsive(ultra-wide-screens){
-    margin: .6em 0 0;
+    padding: .6em 0 0;
   }
 
 
