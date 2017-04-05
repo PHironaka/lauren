@@ -82,26 +82,28 @@ nav a:hover{
 .page-title{
   display: block;
 float: left;
-width: 6.5em;
+font-size: 1.5em;
+font-family: $headerFont ;
+padding: .6em 0 0 ;
 
-@include responsive(tiny-screens){
-  padding: 1em 0 0;
-
-}
-
-  @include responsive(small-screens){
-    padding: 1em 0 0;
-
-  }
-  @include responsive(medium-screens){
-    padding: 1em 0 0;
-  }
-  @include responsive(wide-screens){
-    padding: .6em 0 0;
-  }
-  @include responsive(ultra-wide-screens){
-    padding: .6em 0 0;
-  }
+// @include responsive(tiny-screens){
+//   padding: 1em 0 0;
+//
+// }
+//
+//   @include responsive(small-screens){
+//     padding: 1em 0 0;
+//
+//   }
+//   @include responsive(medium-screens){
+//     padding: 1em 0 0;
+//   }
+//   @include responsive(wide-screens){
+//     padding: .6em 0 0;
+//   }
+//   @include responsive(ultra-wide-screens){
+//     padding: .6em 0 0;
+//   }
 
 
   a{
