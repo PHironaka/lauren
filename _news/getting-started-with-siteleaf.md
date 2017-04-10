@@ -12,6 +12,7 @@ environment: Integrated social media strategy into all strategic business plans;
 layout: post
 ---
 
-Repositioned Nike Women's entire global digital/social presence - including all digital storytelling (defined persona, tone, content guide) and integrated initiatives in partnership with key stakeholders to best serve the female consumer. 
+ Repositioned Nike Women's entire global digital/social presence, including all digital content and integrated initiatives that has since become a key part of the category’s strategic direction (social media, content, licensed apparel, e-commerce, mobile applications, entertainment, media, digital/retail, and content syndication).
 
+Lead all digital brand marketing and content efforts internally/externally for products, athletes, events, initiatives, and partnerships globally
 
