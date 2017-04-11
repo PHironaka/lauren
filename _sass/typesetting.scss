@@ -63,12 +63,10 @@ body{
       font-size: 2rem;
     }
 
-    a{
-      color: black;
         &:hover {
           color: black;
         }
-    }
+
   }
 
 
@@ -150,7 +148,7 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color: darken($blue, 10%);
+  color: black;
 }
 
 a:not(.without-underline):hover{
