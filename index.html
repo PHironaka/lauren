@@ -18,15 +18,15 @@ topics:
     {{ post.content }}
     </div>
     <div class="home-portfolio--credits">
-      <h3> Brand: </h3>
-      <p class="post-details">
-       {{ post.brand-info }}
-      </p>
+      <h3> Brand: <span>{{ post.brand-info }}</span></h3>
+
+
+
       {% if post.kpi %}
-      <h3>Work: </h3>
-      <p class="post-details">
-        {{ post.kpi }}
-      </p>
+      <h3>Work:  <span class="post-details">
+         {{ post.kpi }}
+       </span> </h3>
+
       {% endif %}
 {% if post.environment %}
       <p class="post-details">
