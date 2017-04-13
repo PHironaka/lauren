@@ -6,4 +6,5 @@ link: https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/profil
 ---
 
 "The Consumer Decides"
+
 honor descriptionAwarded for setting the bar on strategizing around building a community that consumers want to be a part of and feel connected to - digitally, virtually and physically. 
