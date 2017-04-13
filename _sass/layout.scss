@@ -80,13 +80,24 @@ ul.news {
   list-style: none;
   padding: 0;
 
-margin-left: 24%;
+    margin-left: 8%;
 float: left;
 
   li {
-    width: 10em;
+    width: 11em;
 float: left;
-margin: 0 5em 0 0em;
+margin: 0 1em 0 0em;
+@include responsive(tiny-screens){
+  @include width(5);
+}
+
+@include responsive(small-screens){
+  @include width(5);
+}
+@include responsive(medium-screens){
+  @include width(3);
+}
+
   }
 }
 
@@ -160,6 +171,8 @@ padding: 1em 0;
     }
 
     &--credits {
+      text-align: right;
+      font-size: .9em;
       font-weight: normal;
       font-family: 'Source Sans Pro', sans-serif;
       @include width(5);
@@ -181,10 +194,10 @@ padding: 1em 0;
       }
 
       h3 {
-        font-size: .9em;
 margin: 1em 0 0;
-text-transform: uppercase;
 font-weight: 300;
+text-align: right;
+    display: inline-block;
 
 span{
   text-transform: lowercase;
