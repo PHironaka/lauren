@@ -79,24 +79,30 @@ h1 {
 ul.news {
   list-style: none;
   padding: 0;
+    margin: 0 auto;
 
-    margin-left: 8%;
-float: left;
-
-  li {
-    width: 11em;
-float: left;
-margin: 0 1em 0 0em;
-@include responsive(tiny-screens){
-  @include width(5);
-}
 
 @include responsive(small-screens){
-  @include width(5);
+  @include width(8);
 }
-@include responsive(medium-screens){
-  @include width(3);
-}
+
+
+  li {
+
+    text-align: center;
+margin: 0 1em 1em 0em;
+    a {
+      font-family: 'Cormorant Infant', serif;
+
+      font-size: 1.5em;
+    }
+
+    p {
+      font-size: 1em;
+      font-family: 'Source Sans Pro', sans-serif;
+
+    }
+
 
   }
 }
@@ -193,11 +199,17 @@ padding: 1em 0;
         float: right;
       }
 
+      &--brand {
+         float: left;
+      }
+
+
       h3 {
 margin: 1em 0 0;
+font-size: 1em;
+    line-height: 1.8;
 font-weight: 300;
 text-align: right;
-    display: inline-block;
 
 span{
   text-transform: lowercase;
