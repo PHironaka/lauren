@@ -7,8 +7,7 @@ topics:
 image: "/uploads/nw-2.jpg"
 brand-info: Nike Women
 kpi: Brand Strategy, Comms Planning
-environment: "- Developed the global strategy and development of Nike+ Training Club
-  app, the worlds largest fitness app with 14M active users\n"
+environment: 
 layout: post
 ---
 
