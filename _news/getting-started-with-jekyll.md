@@ -6,7 +6,7 @@ topics:
 - Jekyll
 image: "/uploads/CopyrightSohoHouse_WestHollywood_12.jpg"
 brand-info: Soho House
-kpi: Strategy, Account, Marketing
+kpi: Strategy /  Account/ Marketing
 layout: post
 ---
 
