@@ -201,6 +201,27 @@ padding: 1em 0;
 
       &--brand {
          float: left;
+
+         @include responsive(tiny-screens){
+          text-align: left;
+         }
+      }
+
+      &--work {
+        @include responsive(tiny-screens){
+          float: right;
+        }
+        @include responsive(small-screens){
+         float: none;
+        }
+
+        @include responsive(medium-screens){
+        float: none;
+        }
+
+        @include responsive(medium-screens){
+          float: none;
+        }
       }
 
 
@@ -209,7 +230,6 @@ margin: 1em 0 0;
 font-size: 1em;
     line-height: 1.8;
 font-weight: 300;
-text-align: right;
 
 span{
   text-transform: lowercase;
@@ -362,10 +382,16 @@ font-size: 1.8em;
   li{
     display: inline;
 margin-left: 1rem;
+margin-right: 0;
+@include responsive(tiny-screens){
+  margin-right: 1rem;
+  margin-left: 0;
+}
 
       a {
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 300;
+        text-transform: uppercase;
       }
   }
 }
