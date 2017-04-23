@@ -25,10 +25,10 @@ layout: default
          {% for post in site.posts %}
 
 
-         {% if post.link %}
+
         <li><a href="{{post.link}}"> {{post.title}} </a>{% if post.content %}
         {{ post.content }}
-        {% endif %}</li>
+        </li>
          {% endif %}
         {% endfor %}
        </ul>
