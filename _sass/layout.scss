@@ -88,11 +88,18 @@ ul.news {
 
   li {
 
-margin: 0 1em 1em 0em;
+margin: 2em auto ;
 
 @include responsive(small-screens){
-      width: 29.5em;
+  width: 36.5em;
+text-align: center;
+}
+
+img {
+  max-width: 8em;
+  display: block;
   float: left;
+  padding: 0 1em 0 0;
 }
 
 
@@ -174,6 +181,7 @@ padding: 1em 0;
 
       p {
         margin: .6em 0;
+        text-align: justify;
       }
 
 
