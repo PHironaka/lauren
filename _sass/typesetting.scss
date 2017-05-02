@@ -37,8 +37,18 @@ body{
   h1 {
     font-family: $serifFont;
     font-weight: 300;
-    font-size: 1.3em;
     margin: 0;
+
+    @include responsive(tiny-screens){
+      font-size: 1.2996rem;
+    }
+
+    @include responsive(medium-screens){
+      font-size: 1.4996rem;
+    }
+    @include responsive(wide-screens){
+      font-size: 1.8em;
+    }
   }
 
 
