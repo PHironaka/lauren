@@ -216,29 +216,42 @@ padding: 1em 0;
       }
 
       &--brand {
-         float: left;
+         
 
          @include responsive(tiny-screens){
           text-align: left;
+          float: none;
          }
+
+         @include responsive(small-screens){
+            text-align: right;
+            float: left;
+         }
+
+         @include responsive(medium-screens){
+          text-align: right;
+          float: left;
+         }
+
+
 
 
       }
 
       &--work {
         @include responsive(tiny-screens){
-          float: right;
+          text-align: left;
         }
         @include responsive(small-screens){
-         float: none;
+           text-align: right;
         }
 
         @include responsive(medium-screens){
-        float: none;
+         text-align: right;
         }
 
         @include responsive(medium-screens){
-          float: none;
+           text-align: right;
         }
       }
 
