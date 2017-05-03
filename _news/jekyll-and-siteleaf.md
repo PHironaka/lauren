@@ -5,7 +5,7 @@ topics:
 - Jekyll
 - Siteleaf
 - Kissyface
-image: "/uploads/Apple_Union%20Square_Final.jpg"
+image: "/uploads/AppleDubai_Hero_001.jpg"
 brand-info: Apple
 kpi: Confidential
 layout: post
