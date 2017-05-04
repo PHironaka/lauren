@@ -4,9 +4,9 @@ date: 2015-11-02 08:33:00 -05:00
 topics:
 - Docs
 - Siteleaf
-image: "/uploads/nw-2.jpg"
+image: "/uploads/photo%2023.JPG"
 brand-info: Nike Women
-kpi: Brand Strategy / Comms Planning
+kpi: 'Strategy / Content / Nike+ Training Club '
 environment: 
 layout: post
 ---

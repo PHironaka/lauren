@@ -5,7 +5,7 @@ topics:
 - Jekyll
 - Siteleaf
 - Kissyface
-image: "/uploads/Regent%20Street_20161013_HC_Hero.jpg"
+image: "/uploads/hero_medium_2x.jpg"
 brand-info: Apple
 kpi: Confidential
 layout: post
