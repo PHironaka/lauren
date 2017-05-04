@@ -7,9 +7,9 @@ topics:
 ---
 
 <div class="home">
-  
+
   {% assign news = site.news | sort: 'date' | reverse %}
-  {% for post in news limit:3 %}
+  {% for post in news limit:4 %}
   <article class="home-portfolio">
     <img src="{{post.image}}" alt="">
     <div class="home-portfolio--copy">
