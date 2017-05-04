@@ -6,8 +6,7 @@ topics:
 - Jekyll
 image: "/uploads/SoHoChi_049_copy.jpg-565b17.jpeg"
 brand-info: Soho House
-kpi: Global Brand Marketing & Membership Strategy / Communications / Programming /
-  Partnerships
+kpi: 'Strategy / Communications / Programming '
 layout: post
 ---
 
