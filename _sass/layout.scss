@@ -241,17 +241,21 @@ padding: 1em 0;
       &--work {
         @include responsive(tiny-screens){
           text-align: left;
+          padding: 1em 0;
         }
         @include responsive(small-screens){
            text-align: right;
+           padding: 0;
         }
 
         @include responsive(medium-screens){
          text-align: right;
+         padding: 0;
         }
 
-        @include responsive(medium-screens){
+        @include responsive(wide-screens){
            text-align: right;
+           padding: 0;
         }
       }
 
