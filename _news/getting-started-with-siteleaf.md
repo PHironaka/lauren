@@ -4,7 +4,7 @@ date: 2015-11-02 08:33:00 -05:00
 topics:
 - Docs
 - Siteleaf
-image: "/uploads/photo%2023.JPG"
+image: "/uploads/nike-women-hero.jpg"
 brand-info: Nike Women
 kpi: 'Strategy / Content / Nike+ Training Club '
 environment: 

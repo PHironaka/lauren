@@ -4,7 +4,7 @@ date: 2015-11-01 08:33:00 -05:00
 topics:
 - Docs
 - Jekyll
-image: "/uploads/SoHoChi_049_copy.jpg-565b17.jpeg"
+image: "/uploads/soho-chi-hero.jpg"
 brand-info: Soho House
 kpi: 'Strategy / Communications / Programming '
 layout: post
