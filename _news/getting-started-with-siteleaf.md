@@ -6,7 +6,8 @@ topics:
 - Siteleaf
 image: "/uploads/nike-women-hero.jpg"
 brand-info: Nike Women
-kpi: 'Strategy / Content / Nike+ Training Club '
+kpi: Global Digital Brand Marketing Strategy, Content, Nike+ Training Club, People
+  Leader
 environment: 
 layout: post
 ---
