@@ -35,7 +35,6 @@ body{
       font-weight: normal;
 
   h1 {
-    font-family: $serifFont;
     font-weight: 300;
     margin: 0;
 
@@ -44,10 +43,10 @@ body{
     }
 
     @include responsive(medium-screens){
-      font-size: 1.4996rem;
+      font-size: 1.498em;
     }
     @include responsive(wide-screens){
-      font-size: 1.8em;
+      font-size: 1.498em;
     }
   }
 
@@ -113,7 +112,7 @@ nav.cf {
 
 }
 nav a{
-  font-family: $serifFont;
+  font-family: $bodyFont;
   -webkit-transition: all 300ms ease-out;
 -moz-transition: all 300ms ease-out;
 -ms-transition: all 300ms ease-out;
