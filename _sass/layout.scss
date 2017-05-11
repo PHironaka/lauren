@@ -164,6 +164,11 @@ padding: 1em 0;
       font-family: 'Source Sans Pro', sans-serif;
 
 
+      @include responsive(tiny-screens){
+       width: 100%;
+
+      }
+
       @include responsive(small-screens){
        width: 100%;
        font-size: 1.1em;
@@ -230,7 +235,7 @@ padding: 1em 0;
 
          @include responsive(small-screens){
             text-align: left;
-            float: left;
+            float: none;
          }
 
          @include responsive(medium-screens){
