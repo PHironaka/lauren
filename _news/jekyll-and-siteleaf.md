@@ -11,4 +11,5 @@ kpi: Confidential
 layout: post
 ---
 
-Currently serving as Senior Brand Marketing Lead at Apple.
+Currently serving as Senior Brand 
+Marketing Lead at Apple.
