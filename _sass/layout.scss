@@ -193,7 +193,7 @@ padding: 1em 0;
     }
 
     &--credits {
-      text-align: right;
+      text-align: left;
       font-size: .9em;
       font-weight: normal;
       font-family: 'Source Sans Pro', sans-serif;
@@ -229,17 +229,18 @@ padding: 1em 0;
          }
 
          @include responsive(small-screens){
-            text-align: right;
+            text-align: left;
             float: left;
          }
 
          @include responsive(medium-screens){
-          text-align: right;
+          text-align: left;
           float: left;
          }
 
          h3 {
            font-weight: bold;
+           text-align: left;
          }
 
 
@@ -251,23 +252,20 @@ padding: 1em 0;
           padding: 1em 0;
         }
         @include responsive(small-screens){
-           text-align: right;
            padding: 0;
            width: 100%;
            float: none;
         }
 
         @include responsive(medium-screens){
-         text-align: right;
          padding: 0;
-         width: 17em;
+         width: 11em;
          float: right;
         }
 
         @include responsive(wide-screens){
-           text-align: right;
            padding: 0;
-           width: 17em;
+           width: 11em;
            float: right;
         }
 
@@ -282,7 +280,6 @@ padding: 1em 0;
 margin: 1em 0 0;
 font-size: 1em;
     line-height: 1.8;
-font-weight: 300;
 
 span{
   text-transform: lowercase;
@@ -421,17 +418,16 @@ font-size: 1.8em;
   list-style-type: none;
   padding-left: 0;
   float: right;
-  margin-top:1.3em;
+  padding-top:20px;
+  margin: 0;
 
   @include responsive(tiny-screens){
-    margin-top:.8em;
     border-left: none;
     width: 11em;
     text-align: right;
   }
 
   @include responsive(small-screens){
-    margin-top:1em;
     border-left: none;
     width: 16em;
   }
