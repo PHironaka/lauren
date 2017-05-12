@@ -430,6 +430,7 @@ font-size: 1.8em;
     border-left: none;
     width: 11em;
     text-align: right;
+    padding-top:20px;
   }
 
   @include responsive(small-screens){
