@@ -198,7 +198,7 @@ padding: 1em 0;
 
     &--credits {
       text-align: left;
-      font-size: 1.3em;
+      font-size: 1.2em;
       font-weight: normal;
       font-family: 'Source Sans Pro', sans-serif;
 
@@ -212,15 +212,13 @@ padding: 1em 0;
       }
 
       @include responsive(medium-screens){
-            width: 22.5em;
+            width: 16.5em;
+            float: right;
       }
 
-      @include responsive(medium-screens){
-        float: right;
-      }
 
       @include responsive(wide-screens){
-        width: 28.5em;
+        width: 23.5em;
       }
 
 
@@ -281,7 +279,7 @@ padding: 1em 0;
 
 
       h3 {
-margin: 1em 0 0;
+margin: .6em 0;
 font-size: .9113434890111em;
     line-height: 1.8;
 
@@ -446,6 +444,11 @@ margin-right: 0;
 @include responsive(tiny-screens){
   margin-left: 0.5em;
 }
+
+@include responsive(small-screens){
+margin-left: 1.5em;
+}
+
 
       a {
         font-family: 'Source Sans Pro', sans-serif;
