@@ -120,7 +120,7 @@ nav a{
 transition: all 300ms ease-out;
 }
 nav a:hover{
-  color: #ccc;
+  color: #aaaaaa;
 }
 
 
@@ -132,11 +132,12 @@ nav a:hover{
   word-wrap: break-word;
   font-weight: 300;
   border-radius: .3rem;
+
   margin: 0;
-  text-transform: uppercase;
 
   @include responsive(tiny-screens){
     padding: .6em .41em 0 0;
+    display: table-cell;
   }
 
   }
@@ -175,6 +176,7 @@ hr{
   font-family:$bodyFont;
   line-height: 1.5;
   margin-top: .5em;
+  font-size: .9113434890111em;
 
 }
 // 🎌Content Links🎌
@@ -188,5 +190,5 @@ a:hover{
 }
 
 a:not(.without-underline):hover{
-  color: #eee;
+  color: #aaaaaa;
 }
