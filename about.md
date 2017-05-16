@@ -18,7 +18,7 @@ contact-info: Follow along on social media for further bit sized pieces of conte
 layout: page
 ---
 
-# Lauren Gallo is an award-winning marketing executive with expertise in global brand marketing development and integrated communications. 
+# Lauren Gallo is an award-winning marketing executive with expertise in global brand marketing development, content strategy and integrated communications. 
 
 Raised in New York, her deep understanding and passion for culture, technology, and entertainment has helped steer her career in growing and defining global, iconic brands.
 
