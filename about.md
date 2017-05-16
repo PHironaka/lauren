@@ -26,6 +26,6 @@ As Nike Women’s Digital Brand Marketing Lead, she repositioned the brand’s d
 
 Prior to Nike, she drove Soho House’s global marketing, membership, and communications strategy. There, she established key partnerships with brands, media, and tastemakers, and launched new properties in Los Angeles, Toronto, Berlin, and Miami.
 
-Currently, Lauren leads Brand Marketing & Strategy at .
+Currently, Lauren leads Brand Marketing & Strategy at Apple.
 
 She was recently named to Forbes 30 under 30 list.
