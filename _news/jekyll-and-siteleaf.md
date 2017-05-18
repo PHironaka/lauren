@@ -5,7 +5,7 @@ topics:
 - Jekyll
 - Siteleaf
 - Kissyface
-image: "/uploads/apple-firenze-hero.jpg"
+image: "/uploads/MacBook-SpGray-PF-Open-LG-2.jpg.jpeg"
 brand-info: Apple
 kpi: Confidential
 layout: post
