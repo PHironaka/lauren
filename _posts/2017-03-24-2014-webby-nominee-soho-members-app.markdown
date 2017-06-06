@@ -5,3 +5,4 @@ link: http://webbyawards.com/winners/2014/mobile-apps/handheld-devices/lifestyle
 image: "/uploads/a6bd52b8.png"
 ---
 
+Soho House Member App - House Seven "Your Soho House, wherever you are."
