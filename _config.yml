@@ -14,6 +14,7 @@ collections:
 url: http://siteleaf-jekyll.siteleaf.net
 gems:
 - jekyll-paginate
+- jekyll-seo-tag
 paginate: 3
 paginate_path: "/page:num/"
 hilighter: rouge
@@ -26,7 +27,7 @@ email: your-email@domain.com
 exclude:
 - ".gitignore"
 description: " Brand Strategy   |    Marketing   |   Content   |   Curator"
-baseurl: 
+baseurl:
 destination: "./build"
 sass:
   style: compressed
