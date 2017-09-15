@@ -31,3 +31,4 @@ destination: "./build"
 sass:
   style: compressed
 permalink: pretty
+info: " Brand Strategy   |    Marketing   |   Content   |   Curator"
