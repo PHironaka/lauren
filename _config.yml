@@ -11,7 +11,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-url: http://siteleaf-jekyll.siteleaf.net
+url: http://laurenmgallo.com
 gems:
 - jekyll-paginate
 - jekyll-seo-tag
