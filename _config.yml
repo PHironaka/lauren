@@ -11,9 +11,10 @@ collections:
   uploads:
     title: Uploads
     output: true
-url: http://siteleaf-jekyll.siteleaf.net
+url: http://laurenmgallo.com
 gems:
 - jekyll-paginate
+- jekyll-seo-tag
 paginate: 3
 paginate_path: "/page:num/"
 hilighter: rouge
@@ -25,9 +26,11 @@ excerpt_separator: "<!--more-->"
 email: your-email@domain.com
 exclude:
 - ".gitignore"
-description: " Brand Strategy   |    Marketing   |   Content   |   Curator"
+description: Lauren Gallo - Brand Strategy, Marketing, Content, Curator
 baseurl: 
 destination: "./build"
 sass:
   style: compressed
 permalink: pretty
+info: " Brand Strategy   |    Marketing   |   Content   |   Curator"
+asset: "/uploads/IMG_4762.JPG.jpeg"
