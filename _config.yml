@@ -26,7 +26,7 @@ excerpt_separator: "<!--more-->"
 email: your-email@domain.com
 exclude:
 - ".gitignore"
-description: " Brand Strategy   |    Marketing   |   Content   |   Curator"
+description: Lauren Gallo - Brand Strategy, Marketing, Content, Curator
 baseurl: 
 destination: "./build"
 sass:
