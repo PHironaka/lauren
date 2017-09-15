@@ -175,12 +175,12 @@ padding: 1em 0;
       }
 
       @include responsive(medium-screens){
-         @include width(4);
+            width: 18em;
           font-size: 1.3em;
       }
 
       @include responsive(wide-screens){
-             @include width(4);
+            width: 18em;
            font-size: 1.3em;
       }
 
@@ -529,13 +529,14 @@ footer{
 
   ul {
     list-style: none;
-    width: 243px;
+    width: 258px;
 margin: 0 auto;
 padding: 0;
 
     li {
-      display: inline;
+      display: inline-block;
       margin: 0 1em;
+      vertical-align: top;
     }
   }
 
