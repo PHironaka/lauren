@@ -12,6 +12,6 @@ environment:
 layout: post
 ---
 
- Repositioned Nike Women's entire global digital/social presence, including all digital content and integrated initiatives that has since become a key part of the category’s strategic direction (social media, content, licensed apparel, e-commerce, mobile applications, entertainment, media, digital/retail, and content syndication).
+ Repositioned Nike Women's entire global digital and social presence, including all digital content and integrated initiatives that has since become a key part of the category’s strategic direction (social media, content, licensed apparel, e-commerce, mobile applications, entertainment, media, digital,retail, and content syndication).
 
 
