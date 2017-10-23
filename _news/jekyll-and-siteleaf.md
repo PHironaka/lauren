@@ -11,4 +11,4 @@ kpi: Confidential
 layout: post
 ---
 
-Senior Brand Marketing & Communications Lead
+Senior Brand Marketing & Strategy Lead
