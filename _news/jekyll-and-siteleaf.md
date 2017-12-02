@@ -5,10 +5,10 @@ topics:
 - Jekyll
 - Siteleaf
 - Kissyface
-image: "/uploads/MacBook-SpGray-PF-Open-LG-2.jpg.jpeg"
+image: "/uploads/MacBook-SpGray-PF-Open-LG-REVISED.jpg"
 brand-info: Apple
 kpi: Confidential
 layout: post
 ---
 
-Senior Brand Marketing & Communications Lead
+Senior Brand Marketing & Strategy Lead
