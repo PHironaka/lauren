@@ -11,7 +11,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-url: http://laurenmgallo.com
+url: https://laurenmgallo.com
 gems:
 - jekyll-paginate
 - jekyll-seo-tag

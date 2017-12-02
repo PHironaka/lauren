@@ -5,12 +5,7 @@
 <html>
   {% include head.html %}
   <body>
-    <!-- {% if page.title == 'Home' %}
-    <div id="overlay-preload">
-      <h1>Lauren Gallo</h1>
-      <p> Brand Strategy | Marketing | Content | Curator </p>
-    </div>
-    {% endif %} -->
+
     <div class="big-wrap">
       {% include header.html %}
 
@@ -21,25 +16,8 @@
       </div>
       {% include footer.html %}
     </div>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<!--
-{% if page.title == 'Home' %}
-    <script type="text/javascript">
-    // Overlay fade out on load
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
-    $(window).load(function() {
-	    $('#overlay-preload').delay(3500).fadeOut('slow'); });
-    $(document).ready(function() {
-      $('#overlay-preload h1').hide(0).delay(300).fadeIn(2000);
-      $('#overlay-preload p').hide(0).delay(1000).fadeIn(1000);
-});
-  //   var welcome = $('#overlay-preload')
-  //    welcome.load(function() {
-  //  $(this).activeClass('active').fadeOut(fast, 400);
-  //    });)
-
-    </script>
-{% endif %} -->
 
 {% if page.title ==  'Press' 'About' %}
 <script type="text/javascript">
