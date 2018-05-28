@@ -24,8 +24,8 @@ Raised in New York, her deep understanding and passion for culture, technology, 
 
 As Nike Women’s Head of Digital Brand Marketing Lead, she repositioned the brand’s digital footprint and voice, building a team of community managers and creative producers responsible for record breaking, omni-channel growth. Other highlights include fostering an online community of 65 million+ women, resetting the category’s global commerce, social strategy, and launching the Nike+ Training Club app.
 
-Prior to Nike, she drove Soho House’s global membership and communications launch strategy. There, she established key partnerships with brands, media, and tastemakers, and launched new properties in Los Angeles, Toronto, Berlin, and Miami.
+Prior to Nike, she drove Soho House’s global membership and communications launch strategy. There, she established key partnerships with brands, media, and tastemakers, and launched new properties in Los Angeles, Toronto, Berlin, and Miami. Most recently Lauren led Brand Marketing & Strategy at Apple. 
 
-Currently, Lauren leads Brand Marketing & Strategy at Apple.
+Currently, Lauren leads Entertainment Marketing at Snapchat.
 
 She was recently named to Forbes 30 under 30 list.
